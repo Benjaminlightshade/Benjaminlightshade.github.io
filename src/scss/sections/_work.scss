@@ -1,0 +1,27 @@
+// 
+// Work portlio
+// 
+
+.service-icon {
+    background-color: $white;
+    color: $primary;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.work-icon {
+    border: 3px solid #eee;
+    border-radius: 0.25rem;
+    height: 10rem;
+    width: 10rem;
+    //display: block;
+    // padding: 0.25rem;
+    max-width: 100%;
+    text-align: center;
+    // height: auto;
+
+}
