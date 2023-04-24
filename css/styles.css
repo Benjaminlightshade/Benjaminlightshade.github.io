@@ -11551,3 +11551,13 @@ footer.footer .social-link:hover {
   max-width: 100%;
   text-align: center;
 }
+
+.mydiv {
+  background-color: #F0F2F2;
+  display: flex;
+  align-items: center;
+  background-clip: content-box;
+}
+.mydiv .row {
+  padding: 2rem;
+}
