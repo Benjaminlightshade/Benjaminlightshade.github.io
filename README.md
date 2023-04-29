@@ -1,3 +1,7 @@
+# [Benjamin Lightshade Tse Portfolio](https://benjaminlightshade.github.io/)
+
+My resume is based on [Stylish Portolio](https://startbootstrap.com/theme/stylish-portfolio/), with some heavy editing. Link to site in the title. 
+
 ## Usage
 
 #### npm Scripts
