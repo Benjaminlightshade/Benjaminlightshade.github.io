@@ -43,7 +43,9 @@ html(lang='en')
                 li.sidebar-nav-item
                     a(href='#portfolio') Projects
                 li.sidebar-nav-item
-                    a(href='#contact') Interests
+                    a(href='#others') Others
+                li.sidebar-nav-item
+                    a(href='#contact') Contact
 
         // Header
         header.masthead.d-flex.align-items-center
@@ -141,41 +143,44 @@ html(lang='en')
 
  
         // Other things
-        section#work.content-section.bg-primary.text-white.text-center        
+        section#others.content-section.bg-primary.text-white.text-center        
             .container.px-4.px-lg-5
                 .content-section-heading
-                    h2.mb-5 Other things I am up to!
+                    h2.mb-5 Other things about me!
                 .row.gx-4.gx-lg-5
                     .col-lg-4.mb-5.mb-lg-0
-                        img.work-icon.mb-3(src='assets/img/NUS logo.png', alt='...')
+                        a(href='https://www.facebook.com/repairkopitiam/')
+                            img.work-icon.mb-3(src='assets/img/Repair kopitiam.png', alt='...')
                         h4
-                            strong NUS | Research Engineer
-                        p.text-faded.mb-0 Feb 2023 - Current
-                        p I work on some cool sensors and HOPES, a tonometry device that isn't uncomfortable to use. 
+                            strong Repair Kopitiam Volunteer
+                        p.text-faded.mb-0 Aug 2018 - Jan 2020
+                        p I learned how to make simple repairs on household items from veterans and taught it to residents. 
                     .col-lg-4.mb-5.mb-lg-0
-                        img.work-icon.mb-3(src='assets/img/Avetics logo.jfif', alt='...')
+                        img.work-icon.mb-3(src='assets/img/Model eternal.png', alt='...')
                         h4
-                            strong Avetics Global | Mechanical Engineer
-                        p.text-faded.mb-0 Mar 2021 - Feb 2023
-                        p Did the mechanical design of Vline drone tethers and the Lumicopter. 
+                            strong Hobby Model Painter
+                        p I enjoy assembling and painting model kits. It takes alot of paitience and trial and error but its worth it in the end.
                     .col-lg-4.mb-5.mb-lg-0
-                        img.work-icon.mb-3(src='assets/img/Flytrex logo.png', alt='...')
+                        a(href='https://www.home-assistant.io/')
+                            img.work-icon.mb-3(src='assets/img/1200px-Home_Assistant_Logo.png', alt='...')
                         h4
-                            strong Flytrex | Field Engineer
-                        p.text-faded.mb-0 Jan 2019 - July 2019
-                        p Had the opportunity to intern at one of the world's leading drone delivery startups and it was truly an eye-opening experience. 
+                            strong Home Assistant
+                        p Smart homes can improve efficiency - and I love efficiency. I am using Home Assistant to add some smart ideas to my room. 
    
         
         // Footer
-        footer.footer.text-center
+        footer#contact.footer.text-center
             .container.px-4.px-lg-5
                 ul.list-inline.mb-5
-                    //- li.list-inline-item
-                    //-     a.social-link.rounded-circle.text-white.mr-3(href='#!')
-                    //-         i.icon-social-twitter
+                    li.list-inline-item
+                        a.social-link.rounded-circle.text-white(href='https://www.linkedin.com/in/benjamin-tse-4154b8102')
+                            i.icon-social-linkedin 
                     li.list-inline-item
                         a.social-link.rounded-circle.text-white(href='https://github.com/Benjaminlightshade')
                             i.icon-social-github
+                    li.list-inline-item
+                        a.social-link.rounded-circle.text-white(href='mailto:benjamintql@gmail.com')
+                            i.icon-envelope
                 p.text-muted.small.mb-0 Copyright &copy; Benjamin Lightshade Tse 2023
 
         // Scroll to Top Button
